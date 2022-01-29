@@ -1,0 +1,41 @@
+@import "./variables";
+
+html,
+body {
+  font-family: "Source Sans Pro", sans-serif;
+  font-display: swap;
+}
+
+.container {
+  max-width: 1280px;
+  margin: auto;
+  padding: 0 2rem;
+}
+
+.row {
+  padding: 6rem 0;
+}
+
+.page-pad {
+  padding: 6rem 0;
+}
+
+.page-title {
+  font-size: 2.2rem;
+  font-weight: bold;
+  display: inline-block;
+  color: $primary;
+}
+
+.input,
+select,
+textarea {
+  font-size: 1rem;
+  font-family: inherit;
+  padding: 0.25em 0.5em;
+  background-color: #fff;
+  background: #f7f7f7;
+  border: 1px solid $primary;
+  border-radius: $roundedCorners;
+  max-width: 100%;
+}
